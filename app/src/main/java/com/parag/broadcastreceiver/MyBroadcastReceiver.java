@@ -10,6 +10,5 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         String name = intent.getStringExtra("name");
         Toast.makeText(context,name,Toast.LENGTH_SHORT).show();
-
     }
 }
